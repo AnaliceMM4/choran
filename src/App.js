@@ -60,7 +60,7 @@ const App = () => {
         <div className="section-content">
           <div className="section-text">
             <h2 className="">
-              Fature de <span className="highlight">R$100 a R$500 mil</span> em <span className="highlight">6 meses</span> com uma <span className="highlight">estrutura de marketing</span> criada para sua necessidade.
+              Fature <span className="highlight">R$100 a R$500 mil</span> em <span className="highlight">6 meses</span> com uma <span className="highlight">estrutura de marketing</span> criada para sua necessidade.
               <img src="logo.png" alt="" className="logo-texto" />
             </h2>
             <h5 className="headline">
