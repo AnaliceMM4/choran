@@ -5,6 +5,7 @@ import { PiBriefcaseFill } from "react-icons/pi";
 import { MdOutlineMail } from "react-icons/md";
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
 import { TbCircleCheckFilled } from "react-icons/tb";
+import { GoAlertFill } from "react-icons/go";
 
 const Navbar = () => (
   <nav className="navbar">
@@ -59,10 +60,10 @@ const App = () => {
         <div className="section-content">
           <div className="section-text">
             <h2 className="">
-              Fature de R$100 mil a R$500 mil em 6 meses com uma estrutura de marketing criada para sua necessidade.
+              Fature de <span className="highlight">R$100 a R$500 mil</span> em <span className="highlight">6 meses</span> com uma <span className="highlight">estrutura de marketing</span> criada para sua necessidade.
+              <img src="logo.png" alt="" className="logo-texto" />
             </h2>
-            <h5>
-              <TbCircleCheckFilled className="icon-card" />
+            <h5 className="headline">
               Sistema de vendas previsível e escalável para sua empresa nunca parar de vender!
             </h5>
             <h5>
@@ -70,7 +71,13 @@ const App = () => {
               Seja escalando o seu negócio ou criando um negócio digital do absoluto zero.
             </h5>
 
-            <p className="form-intro">Tem um PROBLEMA. Nós RESOLVEMOS.   </p>
+            <h5>
+              <GoAlertFill className="icon-alert" />
+              Se o marketing da sua empresa não gera lucro real, você não tem um negócio.
+            </h5>
+
+            <p className="form-intro">
+              Tem um PROBLEMA. Nós RESOLVEMOS.   </p>
 
             <button type="submit" className="btn">
               QUERO VENDER MAIS
@@ -86,8 +93,8 @@ const App = () => {
         <div className="section-content-image">
           <img src="foguete-grafico.png" alt="a" className="section-image" />
           <div className="section-text">
-            <h2 className="break-text">Soluções de marketing para os mais diversos negócios de diversos tamanhos.</h2>
-            <h5 className="form-intro">PREENCHA O FORMULÁRIO </h5>
+            <h2 className="break-text">Soluções de marketing para os mais <span className="highlight">diversos negócios</span> de <span className="highlight">diversos tamanhos.</span></h2>
+            <h5 className="form-intro">Preencha o formulário: </h5>
             <form className="register">
               <div className="input-row mb-2 ">
                 <div className="input-group" data-mdb-input-init>
@@ -208,7 +215,6 @@ const App = () => {
           AGENDAR UMA CONVERSA
           <BsFillRocketTakeoffFill className="icon" />
         </button>
-
       </section>
       <Footer />
     </div >
