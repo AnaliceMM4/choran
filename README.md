@@ -37,3 +37,4 @@ Teste
 ## 🔗 Acesse o site
 Site: https://choransolucoes.netlify.app
 >>>>>>> f1348f8 (YOLO: commit direto na main (adiciona link do site))
+Alteração para teste
