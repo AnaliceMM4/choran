@@ -23,5 +23,11 @@ Mensagens-chave:
 - **Hospedagem/CI:** Netlify (deploy contínuo a partir do repositório)
 
 ## 🔗 Acesse o site
+<<<<<<< HEAD
 https://choransolucoes.netlify.app
 
+=======
+Site: https://choransolucoes.netlify.app
+Teste
+Teste
+>>>>>>> 251bb4c (Commit de teste)
