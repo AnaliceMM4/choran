@@ -23,5 +23,5 @@ Mensagens-chave:
 - **Hospedagem/CI:** Netlify (deploy contínuo a partir do repositório)
 
 ## 🔗 Acesse o site
-Site: https://choransolucoes.netlify.app
-Teste
+https://choransolucoes.netlify.app
+
