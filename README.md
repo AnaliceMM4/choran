@@ -30,4 +30,10 @@ https://choransolucoes.netlify.app
 Site: https://choransolucoes.netlify.app
 Teste
 Teste
+<<<<<<< HEAD
 >>>>>>> 251bb4c (Commit de teste)
+=======
+
+## 🔗 Acesse o site
+Site: https://choransolucoes.netlify.app
+>>>>>>> f1348f8 (YOLO: commit direto na main (adiciona link do site))
